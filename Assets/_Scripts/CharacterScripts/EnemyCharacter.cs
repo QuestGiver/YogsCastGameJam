@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage
+public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage
 {
     private CharacterStats stats;
 
     public CharacterStats Stats
     {
-        get {return stats;    
+        get
+        {
+            return stats;
         }
-        set { stats = value;
+        set
+        {
+            stats = value;
         }
     }
 
@@ -27,6 +29,7 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage
     {
         
     }
+
 
     public void Attack()
     {
