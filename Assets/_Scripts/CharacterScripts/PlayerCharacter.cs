@@ -69,7 +69,7 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
         {
 
         }
-        if(Physics2D.Raycast(gameObject.transform.position, ))
+        //if(Physics2D.Raycast(gameObject.transform.position, ))
 
         throw new System.NotImplementedException();
     }
