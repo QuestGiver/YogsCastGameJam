@@ -61,8 +61,4 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
         throw new System.NotImplementedException();
     }
 
-    public void CanTraverse()
-    {
-        throw new System.NotImplementedException();
-    }
 }
