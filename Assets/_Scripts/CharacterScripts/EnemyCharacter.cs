@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage
+public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMovement
 {
     private CharacterStats stats;
 
@@ -57,6 +57,11 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage
     }
 
     public void OnSendDamage()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void CanTraverse()
     {
         throw new System.NotImplementedException();
     }
