@@ -60,17 +60,5 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
         throw new System.NotImplementedException();
     }
 
-    public void CanTraverse()
-    {
-        RaycastHit characterRayHit;
-        RaycastHit mouseRayHit;
 
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out mouseRayHit))
-        {
-
-        }
-        //if(Physics2D.Raycast(gameObject.transform.position, ))
-
-        throw new System.NotImplementedException();
-    }
 }

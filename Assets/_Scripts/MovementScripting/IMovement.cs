@@ -5,5 +5,4 @@ using UnityEngine;
 public interface IMovement
 {
     void Move();
-    void CanTraverse();
 }
