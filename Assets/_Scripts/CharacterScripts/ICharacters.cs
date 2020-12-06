@@ -7,6 +7,7 @@ using UnityEngine;
 /// </summary>
 public interface ICharacter
 {
+    void SumbitInitiative();
     void Move();
     void Attack();
     void Special();

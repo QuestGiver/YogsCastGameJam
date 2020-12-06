@@ -19,46 +19,49 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         
     }
 
-    public void Attack()
+    public virtual void Attack()
     {
         throw new System.NotImplementedException();
     }
 
-    public void Move()
+    public virtual void Move()
     {
         throw new System.NotImplementedException();
     }
 
-    public void Special()
+    public virtual void Special()
     {
         throw new System.NotImplementedException();
     }
 
-    public void OnRecieveDamage()
+    public virtual void OnRecieveDamage()
     {
         throw new System.NotImplementedException();
     }
 
-    public void Onkill()
+    public virtual void Onkill()
     {
         throw new System.NotImplementedException();
     }
 
-    public void OnSendDamage()
+    public virtual void OnSendDamage()
     {
         throw new System.NotImplementedException();
     }
 
-
+    public virtual void SumbitInitiative()
+    {
+        CombatTracker.AllPlayerCharacters.Add(this);
+    }
 }
