@@ -19,4 +19,7 @@ public struct CharacterStats
     public int powerPoints;
     public int maxhealth;
     public int health;
+    public int atkPower;
+    public int spcPower;
+    public int defPower;
 }

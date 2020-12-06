@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public interface IEnemyAI
 {
     void DetermineBestTarget();
     void EvaluateAIMode();
+    void OnPathComplete(Path p);
 }
 
 public enum Factions
@@ -24,5 +26,4 @@ public struct EnemyAiMemory
     public AIMode behaviorMode;
     public PlayerCharacter targetedPC;
     public EnemyCharacter targetedEC;
-
 }
