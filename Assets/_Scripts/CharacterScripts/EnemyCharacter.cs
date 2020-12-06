@@ -156,4 +156,5 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
             // Reset the waypoint counter so that we start to move towards the first point in the path
             currentWaypoint = 0;
         }
+    }
 }
