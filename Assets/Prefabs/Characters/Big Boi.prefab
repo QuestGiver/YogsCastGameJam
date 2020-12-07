@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3272991297832706641}
   m_Layer: 0
-  m_Name: Character_NPC_Boss
+  m_Name: Big Boi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,6 +29,7 @@ Transform:
   m_Children:
   - {fileID: 3272991298878567313}
   - {fileID: 1864583036930652625}
+  - {fileID: 3214412646075053970}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -11.016, y: 32.909, z: -5.336}
@@ -370,16 +371,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3272991298878567312}
-  m_LocalRotation: {x: 0.05890951, y: -0.70613474, z: 0.0116485385, w: 0.70552665}
+  m_LocalRotation: {x: 0.026265578, y: 0.18619594, z: -0.119866565, w: 0.9748196}
   m_LocalPosition: {x: -0.15797141, y: 0.72267103, z: -0.31645012}
   m_LocalScale: {x: 0.3598904, y: 0.53783715, z: 0.539028}
   m_Children:
   - {fileID: 3272991298541583537}
   - {fileID: 3272991299389050542}
-  - {fileID: 3214412646075053970}
   m_Father: {fileID: 3272991297832706641}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 5.715, y: -90.241, z: -3.847}
+  m_LocalEulerAnglesHint: {x: 5.5, y: 21, z: -13}
 --- !u!212 &3272991298878567310
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -6685548681565427623, guid: 876e4b84cd69b474893372658c885082, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1864583036930652625
 Transform:
   m_ObjectHideFlags: 0
@@ -1167,13 +1167,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6783003628328368667}
-  m_LocalRotation: {x: 0.5053196, y: 0.36688703, z: -0.31650162, w: 0.7140538}
-  m_LocalPosition: {x: 0.32399982, y: -1.353, z: 0.4150009}
-  m_LocalScale: {x: 2.594513, y: 2.5552535, z: 2.627964}
+  m_LocalRotation: {x: 0.62993044, y: -0.30414566, z: 0.10600473, w: 0.706715}
+  m_LocalPosition: {x: -0.424, y: -0.004, z: -0.303}
+  m_LocalScale: {x: 1.2267494, y: 1.0312722, z: 1.3877163}
   m_Children: []
-  m_Father: {fileID: 3272991298878567313}
+  m_Father: {fileID: 3272991297832706641}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 72.533, y: 42.839, z: -15.697}
+  m_LocalEulerAnglesHint: {x: 72.716, y: -85.876, z: -51.759}
 --- !u!212 &1455192529111016218
 SpriteRenderer:
   m_ObjectHideFlags: 0

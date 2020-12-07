@@ -11,12 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/JJU_SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/JimJam_Library.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Art/Art Credits.txt" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/JJU_SelfDestruct.cs" />
       </list>
     </option>
   </component>
@@ -58,6 +60,7 @@
       <workItem from="1607135861219" duration="8000" />
       <workItem from="1607138053007" duration="75000" />
       <workItem from="1607199195585" duration="8000" />
+      <workItem from="1607299559821" duration="1544000" />
     </task>
     <servers />
   </component>
