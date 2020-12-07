@@ -11,6 +11,9 @@
         </e>
         <e p="_Scripts" t="Include">
           <e p="CharacterScripts" t="Include">
+            <e p="Enemies" t="Include">
+              <e p="EnemySkeleton.cs" t="Include" />
+            </e>
             <e p="EnemyCharacter.cs" t="Include" />
             <e p="ICharacters.cs" t="Include" />
             <e p="PlayerCharacter.cs" t="Include" />
