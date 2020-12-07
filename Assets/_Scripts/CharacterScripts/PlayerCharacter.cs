@@ -7,7 +7,6 @@ using UnityEngine;
 public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMovement
 {
 
-
     private CharacterStats stats;
 
     public CharacterStats Stats
