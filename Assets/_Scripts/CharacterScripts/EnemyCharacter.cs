@@ -43,7 +43,6 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
     protected virtual void Start()
     {
         seeker = GetComponent<Seeker>();
-
     }
 
     // Update is called once per frame
@@ -146,7 +145,7 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
         throw new System.NotImplementedException();
     }
 
-    public void OnPathComplete(Path p)
+    public virtual void OnPathComplete(Path p)
     {
         Debug.Log("A path was calculated. Did it fail with an error? " + p.error);
 
