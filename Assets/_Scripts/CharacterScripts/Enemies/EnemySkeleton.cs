@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class EnemySkeleton : EnemyCharacter
 {
+    public bool testMode;
     protected override void Start()
     {
         base.Start();
@@ -12,7 +13,12 @@ public class EnemySkeleton : EnemyCharacter
 
     protected override void Update()
     {
+        if (testMode)
+        {
+            Move();
+        }
         base.Update();
+
     }
 
     public override void Move()
