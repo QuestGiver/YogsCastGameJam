@@ -15,7 +15,7 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
     private CharacterController controller;
     public Path path;
     public float speed = 2;
-    public float nextWaypointDistance = 3;
+    public float nextWaypointDistance = 0.25f;
     private int currentWaypoint = 0;
     public bool reachedEndOfPath;
     //============================================

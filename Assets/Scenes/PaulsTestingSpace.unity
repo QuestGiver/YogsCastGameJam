@@ -336,7 +336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {fileID: 1646013941}
   speed: 2
-  nextWaypointDistance: 3
+  nextWaypointDistance: 0.25
   reachedEndOfPath: 0
   testMode: 1
 --- !u!114 &492676204
