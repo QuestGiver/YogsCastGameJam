@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50217826-a076-424c-8a52-30917ad80f51" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,8 +29,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/JJE_SmoothMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneTransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CharacterScripts/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CharacterScripts/TestCharacter_THROWAWAY.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/JJU_SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/JimJam_Library.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -24,6 +42,9 @@
         <option value="$PROJECT_DIR$/Assets/Level_Transition.cs" />
         <option value="$PROJECT_DIR$/Assets/JJE_SmoothMove.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneTransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CharacterScripts/PlayerCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CharacterScripts/PCCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CharacterScripts/TestCharacter_THROWAWAY.cs" />
       </list>
     </option>
   </component>
@@ -67,7 +88,9 @@
       <workItem from="1607199195585" duration="8000" />
       <workItem from="1607299559821" duration="2367000" />
       <workItem from="1607733399477" duration="1408000" />
-      <workItem from="1607783172773" duration="2611000" />
+      <workItem from="1607783172773" duration="4917000" />
+      <workItem from="1607869730339" duration="1323000" />
+      <workItem from="1607909360979" duration="3239000" />
     </task>
     <servers />
   </component>
@@ -76,7 +99,28 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="969" y="341" key="run.anything.popup" timestamp="1607909988399">
+      <screen x="65" y="0" width="2495" height="1440" />
+    </state>
+    <state x="969" y="341" key="run.anything.popup/65.0.2495.1440@65.0.2495.1440" timestamp="1607909988399" />
+    <state x="975" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1607911834534">
+      <screen x="65" y="0" width="2495" height="1440" />
+    </state>
+    <state x="975" y="325" width="672" height="678" key="search.everywhere.popup/65.0.2495.1440@65.0.2495.1440" timestamp="1607911834534" />
   </component>
 </project>

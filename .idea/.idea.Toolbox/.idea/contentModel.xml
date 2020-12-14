@@ -17,6 +17,7 @@
             <e p="EnemyCharacter.cs" t="Include" />
             <e p="ICharacters.cs" t="Include" />
             <e p="PlayerCharacter.cs" t="Include" />
+            <e p="TestCharacter_THROWAWAY.cs" t="Include" />
           </e>
           <e p="CombatManager" t="Include">
             <e p="CombatTracker.cs" t="Include" />
@@ -28,10 +29,12 @@
             <e p="IEnemyAI.cs" t="Include" />
           </e>
           <e p="JimJam_Library.cs" t="Include" />
+          <e p="JJE_SmoothMove.cs" t="Include" />
           <e p="JJU_SelfDestruct.cs" t="Include" />
           <e p="MovementScripting" t="Include">
             <e p="IMovement.cs" t="Include" />
           </e>
+          <e p="SceneTransitionManager.cs" t="Include" />
         </e>
         <e p="AstarPathfindingProject" t="Include">
           <e p="AstarPathfindingProject.asmdef" t="Include" />
@@ -237,8 +240,6 @@
             <e p="UnityReferenceHelper.cs" t="Include" />
           </e>
         </e>
-        <e p="JJE_SmoothMove.cs" t="Include" />
-        <e p="SceneTransitionManager.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">

@@ -23,13 +23,12 @@ public class SceneTransitionManager : MonoBehaviour
 
     private void Awake()
     {
-        //DDOL handler
+        //DDOL
         if (_instance == null)
             _instance = this;
         else if(_instance != null & _instance != this)
             Destroy(this.gameObject);
         DontDestroyOnLoad(this.gameObject);
-        //end DDOL handler
     }
 
     public void GotoLevel(string incLevel)
