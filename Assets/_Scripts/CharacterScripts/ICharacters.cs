@@ -15,6 +15,7 @@ public interface ICharacter
 
 public struct CharacterStats
 {
+    public float MaxMovementPoints;
     public float movementPoints;
     public int powerPoints;
     public int maxhealth;

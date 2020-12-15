@@ -96,7 +96,19 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
         // Multiply the direction by our desired speed to get a velocity
         Vector3 velocity = dir * speed * speedFactor;
 
-        transform.position += velocity * Time.deltaTime;
+        //====Movement Points Expenditure tracking====Basic Implamentation=============================================\\
+        stats.movementPoints -= Vector2.Distance(transform.position, transform.position += velocity * Time.deltaTime);
+        //=============================================================================================================\\
+
+        if (stats.movementPoints > 0)
+        {
+            transform.position += velocity * Time.deltaTime;
+        }
+        else
+        {
+            return;
+        }
+
     }
 
 
@@ -107,6 +119,7 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
 
     public virtual void Move()
     {
+        seeker.pathCallback(path);
         seeker.StartPath(transform.position, targetPosition.position, OnPathComplete);
     }
 
