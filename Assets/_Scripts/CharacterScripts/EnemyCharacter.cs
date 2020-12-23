@@ -20,6 +20,7 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
     public bool reachedEndOfPath;
     //============================================
 
+    public CharacterDependencies dependencies;
 
     public CharacterStats Stats
     {
@@ -97,10 +98,10 @@ public abstract class EnemyCharacter : MonoBehaviour, ICharacter, IDamage, IMove
         Vector3 velocity = dir * speed * speedFactor;
 
         //====Movement Points Expenditure tracking====Basic Implamentation=============================================\\
-        stats.movementPoints -= Vector2.Distance(transform.position, transform.position += velocity * Time.deltaTime);
+        stats.MovementPoints -= Vector2.Distance(transform.position, transform.position += velocity * Time.deltaTime);
         //=============================================================================================================\\
 
-        if (stats.movementPoints > 0)
+        if (stats.MovementPoints > 0)
         {
             transform.position += velocity * Time.deltaTime;
         }

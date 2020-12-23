@@ -6,6 +6,7 @@ using UnityEngine;
 
 public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMovement
 {
+
     ////----Movement Variables---------------------------------------------------//
     public float speed;
     public float moveLimit;
@@ -13,8 +14,10 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
     public Vector2 startingPoint;
     private Vector2 destination;
     private Animator anim;
-    private static readonly int IsMoving = Animator.StringToHash("isMoving");    
+    private static readonly int IsMoving = Animator.StringToHash("isMoving");
     ////-------------------------------------------------------------------------//
+
+    public CharacterDependencies Dependencies;
 
     private CharacterStats stats;
 
@@ -26,11 +29,12 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
         }
     }
 
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        stats.health = stats.maxhealth;
-        stats.movementPoints = stats.MaxMovementPoints;
+        stats.Health = stats.Maxhealth;
+        stats.MovementPoints = stats.MaxMovementPoints;
     }
 
     // Update is called once per frame
@@ -73,10 +77,10 @@ public abstract class PlayerCharacter : MonoBehaviour, ICharacter, IDamage, IMov
             //pos.y = Mathf.Clamp(pos.y,startingPoint.y - moveLimit, startingPoint.y + moveLimit);
 
             //====Movement Points Expenditure tracking====Basic Implamentation==========\\
-            stats.movementPoints -= Vector2.Distance(pos, transform.position);
+            stats.MovementPoints -= Vector2.Distance(pos, transform.position);
             //==========================================================================\\
 
-            if (stats.movementPoints >= 0)
+            if (stats.MovementPoints >= 0)
             {
                 transform.position = pos;
             }
